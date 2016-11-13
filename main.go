@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	_ "techlabs/models"
-	_ "techlabs/routers"
+	_ "go-ecs-demo/models"
+	_ "go-ecs-demo/routers"
 
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/orm"
