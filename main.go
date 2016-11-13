@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	_ "go-ecs-demo/models"
-	_ "go-ecs-demo/routers"
+	_ "github.com/watsonrp/go-ecs-demo/models"
+	_ "github.com/watsonrp/go-ecs-demo/routers"
 
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/orm"
