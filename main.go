@@ -12,7 +12,7 @@ import (
 
 func init() {
 	orm.RegisterDriver("mysql", orm.DRMySQL)
-	err := orm.RegisterDataBase("default", "mysql", "tlUser:1qazxcde32ws@/tldb?charset=utf8")
+	# err := orm.RegisterDataBase("default", "mysql", "tlUser/tldb?charset=utf8")
 	if err != nil {
 		fmt.Println(err)
 	}
